@@ -6,9 +6,8 @@ public class View {
 
     public static void main(String[] args) {
         int number = 0;
-        List<Drug> drugs = ReadFile.getDrugList();
         Sort sort = new Sort();
-        printf(drugs);
+        printf(ReadFile.getDrugList());
         while (true){
             printTemplate();
             Scanner scanner = new Scanner(System.in);
@@ -23,9 +22,11 @@ public class View {
                 }
                 number = Integer.parseInt(str);
                 switch (number){
-                    case 1 : printf(sort.sortByUnitPrice(drugs));break;
-                    case 2 : printf(sort.sortByNumberOfSales(drugs));break;
-                    case 3 : return;
+                    case 1 : printf(sort.sortByUnitPrice(ReadFile.getDrugList()));break;
+                    case 2 : printf(sort.sortByNumberOfSales(ReadFile.getDrugList()));break;
+                    case 3 : printf(sort.directInsertionSortByUnitPrice(ReadFile.getDrugList()));break;
+                    case 4 : printf(sort.directSelectionSortBySales(ReadFile.getDrugList()));break;
+                    case 5 : return;
                     default:
                         System.out.println("请输入规定的数字");
                 }
@@ -38,8 +39,10 @@ public class View {
         System.out.println();
         System.out.println("*------------药店的药品销售统计系统------------*\n");
         System.out.println("*            1.按药品单价排序(冒泡排序)        *\n");
-        System.out.println("*            2.按药品销售量排序(快速排序)      *\n");
-        System.out.println("*            3.退出程序                      *\n");
+        System.out.println("*            2.按药品销售数量排序(快速排序)      *\n");
+        System.out.println("*            3.按药品单价排序(直接插入排序)     *\n");
+        System.out.println("*            4.按药品销售额排序(直接选择排序)    *\n");
+        System.out.println("*            5.退出程序                      *\n");
         System.out.println("*-------------------------------------------*\n");
     }
 

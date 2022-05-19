@@ -1,7 +1,7 @@
-{"drugName":"A","drugNumbering":"A101","drugUnitPrice":50,"numberOfSales":9520,"sales":10000}
-{"drugName":"B","drugNumbering":"A102","drugUnitPrice":60,"numberOfSales":2620,"sales":20000}
-{"drugName":"C","drugNumbering":"A103","drugUnitPrice":70,"numberOfSales":1430,"sales":30000}
-{"drugName":"D","drugNumbering":"A104","drugUnitPrice":100,"numberOfSales":2150,"sales":40000}
-{"drugName":"E","drugNumbering":"A105","drugUnitPrice":261,"numberOfSales":1054,"sales":50000}
-{"drugName":"F","drugNumbering":"A106","drugUnitPrice":92,"numberOfSales":3945,"sales":60000}
-{"drugName":"G","drugNumbering":"A107","drugUnitPrice":110,"numberOfSales":8920,"sales":70000}
+{"drugName":"A","drugNumbering":"A101","drugUnitPrice":50,"numberOfSales":9520,"sales":810200}
+{"drugName":"B","drugNumbering":"A102","drugUnitPrice":60,"numberOfSales":2620,"sales":620690}
+{"drugName":"C","drugNumbering":"A103","drugUnitPrice":70,"numberOfSales":1430,"sales":233000}
+{"drugName":"D","drugNumbering":"A104","drugUnitPrice":100,"numberOfSales":2150,"sales":101500}
+{"drugName":"E","drugNumbering":"A105","drugUnitPrice":261,"numberOfSales":1054,"sales":261001}
+{"drugName":"F","drugNumbering":"A106","drugUnitPrice":92,"numberOfSales":3945,"sales":592003}
+{"drugName":"G","drugNumbering":"A107","drugUnitPrice":110,"numberOfSales":8920,"sales":3545}
